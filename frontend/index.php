@@ -181,7 +181,6 @@ Author URL: http://w3layouts.com
                 <div class="col-lg-3 trending mt-lg-0 mt-5 mb-lg-5">
                     <div class="pos-sticky">
                         <h3 class="section-title-left">Trending </h3>
-
                         <div class="grids5-info">
                             <h4>01.</h4>
                             <div class="blog-info">
