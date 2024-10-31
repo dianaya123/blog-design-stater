@@ -11,7 +11,7 @@ $current_page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
 $current_page = max(1, min($total_pages, $current_page));
 
 // Calculate the offset for the SQL LIMIT clause
-$offset = ($current_page - 1) * $items_per_page;
+$offset = ($current_page - 1) * $items_per_page ;
 
 // Fetch the items for the current page
 $sql_pagination = "SELECT * FROM post ORDER BY view DESC LIMIT $offset, $items_per_page";
