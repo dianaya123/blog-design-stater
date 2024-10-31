@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Warna latar belakang yang lebih terang */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+header {
+    background: #343a40; /* Warna header lebih gelap */
+    color: #ffffff; /* Warna teks header putih */
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #495057 3px solid; /* Warna border lebih gelap */
+}
+
+header a {
+    color: #ffc107; /* Warna link header kuning */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.main-content {
+    float: left;
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    float: right;
+    width: 30%;
+    background: #495057; /* Warna sidebar lebih gelap */
+    color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.post {
+    background: #ffffff; /* Warna latar belakang post tetap putih */
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #ced4da; /* Warna bayangan lebih terang */
+}
+
+.post h2 {
+    color: #343a40; /* Warna judul post gelap */
+}
+
+.post-meta {
+    background: #f8f9fa; /* Warna latar belakang meta post lebih terang */
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.trending-post {
+    padding: 10px 0;
+    border-bottom: 1px solid #ced4da; /* Warna border lebih terang */
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #ffffff; /* Warna teks pagination putih */
+    background-color: #007bff; /* Warna latar belakang pagination biru */
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #0056b3; /* Warna hover lebih gelap */
+}
+
+/* Tambahan CSS untuk halaman Lifestyle */
+.active {
+    background-color: #007bff; /* Warna aktif biru */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.read-more {
+    display: inline-block;
+    background: #007bff; /* Warna latar belakang read more biru */
+    color: #ffffff; /* Warna teks read more putih */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.read-more:hover {
+    background: #0056b3; /* Warna hover read more lebih gelap */
+}
+
+.sidebar-section {
+    margin-bottom: 30px;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+}
+
+.category-list li {
+    margin-bottom: 10px;
+}
+
+.category-list a {
+    color: #ffffff; /* Warna teks kategori putih */
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+.category-list a:hover {
+    background: #ffc107; /* Warna hover kategori kuning */
+}
+
+.trending-post {
+    padding: 15px;
+    border-bottom: 1px solid #ced4da; /* Warna border lebih terang */
+}
+
+.trending-post:last-child {
+    border-bottom: none;
+}
+
+.trending-post h4 {
+    margin: 0 0 5px 0;
+    color: #ffffff; /* Warna judul trending post putih */
+}
+
+.trending-post p {
+    margin: 0;
+    color: #adb5bd; /* Warna teks trending post lebih terang */
+    font-size: 14px;
+}
+
+footer {
+ background: #343a40; /* Warna footer lebih gelap */
+    color: #ffffff; /* Warna teks footer putih */
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Responsif untuk layar kecil */
+@media(max-width: 768px) {
+    .main-content,
+    .sidebar {
+        width: 100%;
+        float: none;
+    }
+
+    header #branding,
+    header nav,
+    header nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+}
